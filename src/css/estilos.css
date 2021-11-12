@@ -1,0 +1,398 @@
+/*HOME*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+font-family: 'Alegreya', serif;
+font-size: 10px;
+color: black;
+font-weight: 400;
+}
+.home {
+	background-image: url(../img/portada_1.jpeg);
+	background-size: cover;
+}
+main {
+  width: 100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+header {
+  background-color: rgb(135, 103, 224);
+}
+nav {
+  font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+  font-weight: 700;	
+  padding: 10px 0px 10px 30px ;
+}
+.menu {
+  display: inline-block;
+  margin-right: 20px;
+}
+.principal {
+	display: inline-block;
+	font-size: 10rem;
+	font-weight: 700;	
+  color: rgb(135, 103, 224);
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: rgb(0, 0, 0);
+}
+.padre {
+  display: table;
+  height:600px;
+}
+.hijo {
+  display: table-cell;
+  vertical-align: middle;
+}
+.hijo p {
+  font-size: 5rem;
+  color: rgb(42, 47, 102);
+  font-family: 'Griffy', cursive;
+}
+.hijo img {
+  margin-left: 120px;
+}
+button {
+  background-color: rgb(135, 103, 224);
+  border-radius: 12px;
+  padding: 6px 12px;
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  border: 1px solid transparent;
+  margin-top: 40px;
+}
+button:hover {
+	color: rgb(42, 47, 102);
+  background-color: rgba(135, 103, 224, 0.836);
+}
+footer {
+  font-family: 'Open Sans', sans-serif;
+	text-align: center;
+  font-size: 1.2rem;
+  color:white;
+  background-color: black;
+  padding: 10px 0px 10px 0px;
+  line-height: 25px;
+}
+.pie_home {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/*Categoría*/
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+}
+.rutas {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 242.5px 242.5px;
+    grid-gap: 15px;
+    margin-bottom: 15px;
+}
+.lugar {
+	background-color: rgba(86,91,144,0.1);	
+  font-size: 1.8rem;
+  padding: 15px 0px 0px 15px;
+}
+.descripcion {
+	background-color: rgba(86,91,144,0.1);		
+  padding: 15px 15px 0px 15px;
+}
+.descripcion p:last-child {
+	font-weight: 700;
+	font-size: 1.8rem;
+  padding: 15px 0px 0px 10px;
+} 
+.descripcion p:first-child {
+	font-size: 1.6rem;
+  font-style: italic;
+}
+hr {
+  background-color: rgb(197, 105, 20);
+  height: 5px;
+  width: 5%;
+  margin-top: 27px;
+  margin-left: 10px;
+  border-style: none;
+}
+.descripcion div {
+	display: flex;
+}
+.cabecera {
+	display: flex;
+	flex-flow: row wrap;
+	background-color: rgb(42, 47, 102);
+  margin: 10px 0px 15px 0px;
+}
+.cabecera .titulo {
+  flex:2 0px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+  padding: 15px 0px 0px 15px;
+} 
+.cabecera .foto {
+	flex:0.9 400px;
+}
+.lugar a {
+  color: black;
+}
+.lugar a:hover {
+	color: rgb(135, 103, 224);
+}
+/*Valle de Tena*/
+.titulo_detalle {
+  color: rgb(42, 47, 102);
+}
+article {
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+}
+article p {
+  padding-bottom: 20px;
+}
+article h2{
+  margin-bottom: 15px;
+}
+.video-fluid-uno {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  overflow: hidden;
+}
+iframe.video-fluid-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.video-fluid-uno::before {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+.video-fluid {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  overflow: hidden;
+}
+iframe {
+border:0px;
+}
+figcaption {
+  font-size: 1.5rem;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(42, 47, 102);
+}
+.cabecera_detalle {
+	display: flex;
+	flex-flow: row wrap;
+	background-color: rgba(86,91,144,0.1);
+  margin: 10px 0px 30px 0px;
+}
+.cabecera_detalle .titulo_detalle {
+  flex:2 500px;
+	text-align: left;
+  padding: 30px 0px 0px 30px;
+} 
+.cabecera_detalle .foto_detalle {
+	flex:0.9 400px;
+}
+.titulo_detalle h1 {
+  color: rgb(42, 47, 102);
+}
+article p span {
+  font-style: italic;
+  color: rgb(135, 103, 224);
+}
+li {
+  margin: 0px 0px 20px 30px;
+}
+.submenu {
+  font-size: 1.8rem;
+}
+.submenu li {
+  display: inline-block;
+}
+.submenu a {
+  font-weight: 700;
+  color: rgb(135, 103, 224);
+}
+/*Presentación*/
+.presentacion {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+    grid-template-rows: 500px 30px;
+    grid-gap: 0px;
+}
+.intro {
+	background-color: rgba(86,91,144,0.1);		
+  padding: 30px 20px 0px 20px;
+}
+.intro p {
+	font-size: 1.8rem;
+  font-style: italic;
+}
+/*Bibliografía*/
+.listado {
+  font-size: 1.8rem;
+}
+.listado a {
+  font-weight: 700;
+  color: rgb(42, 47, 102);
+}
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+/*HOME*/
+@media only screen and (max-width : 900px) { 
+  header {
+    text-align: center;
+  }
+  nav {
+    padding: 10px 0px 10px 0px;
+  }
+  .menu {
+    display: block;
+    margin: 0px 0px 5px 0px;
+    font-size: 1.6rem;
+  }
+  .principal {
+    font-size: 5rem;
+  }
+  .hijo {
+    vertical-align:top;
+  }
+  .hijo img {
+    display: none;
+  }
+  .hijo p {
+    font-size: 4rem;
+  }
+  .padre {
+    padding: 30px 0px 0px 20px;
+    display: table;
+    height:900px;
+  }
+  .home {
+    background-image: url(../img/portada_1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
+  button {
+    display: relative;
+  }
+  footer {
+    font-size: 1rem;
+  }
+  footer p {
+    margin: 0px 10px 0px 10px;
+  }
+/*Categoría*/
+  h1 {
+    font-size: 3.8rem;
+}
+  .rutas {
+	  display: grid;
+	  grid-template-columns: 4fr;
+    grid-template-rows: 60px 300px;
+    grid-gap: 0px;
+    padding-bottom: 0;
+} 
+  .rutas div {
+	  margin-right: 5px;
+	  margin-left: 5px;
+}
+  main .rutas .foto{
+	  margin-bottom: 20px;
+}
+  .rutas p {
+	  font-size: 2rem;
+}
+  .rutas h2 {
+	  font-size: 2.8rem;
+}
+  .descripcion p:last-child {
+    margin-bottom: 15px;
+}
+main {
+  padding-top: 0px;
+}
+/*Presentacion*/
+.presentacion {
+	display: grid;
+	grid-template-columns: 4fr;
+    grid-template-rows: 250px 630px;
+    grid-gap: 0px;
+}
+article {
+  margin: 10px;
+}
+.presentacion > .imagen {
+	order: 2;
+}
+.presentacion > .intro {
+	order: 1;
+}
+.titulo {
+  margin-bottom: 15px;
+}
+/*Valle de Tena*/
+.cabecera_detalle .titulo_detalle {
+  padding: 10px 0px 10px 30px;
+}
+.cabecera_detalle .foto_detalle {
+	flex:0.9 300px;
+}
+.submenu li {
+  display: block;
+}
+/*Enlaces*/
+main .listado {
+  margin-top: 40px;
+}
+}
+/* Cuando la pantalla es menor a 400px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 400px) {
+.presentacion {
+  display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 450px 330px;
+    grid-gap: 0px;
+  }
+  .padre {
+    padding: 30px 0px 0px 20px;
+    display: table;
+    height:600px;
+  }  
+  button {
+    margin-top: 250px;
+  }
+}

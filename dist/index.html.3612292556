@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+	<title>El Valle de Tena</title>
+	<link rel="stylesheet" type="text/css" href="/index.b6f4e245.css">
+  	<script defer="" src="/index.bc3f4e88.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Categorías</a></li>
+				<li><a href="#">Presentación</a></li>
+				<li><a href="#">Enlaces</a></li>
+			</ul>
+		</nav>
+</header>
+<main>
+	<div class="padre">
+		<div class="hijo">
+			<h1>El Valle de Tena</h1>
+			<img src="/bruja_portada.50257761.png" alt="bruja">
+			<p><span class="negrita">Espera por ti...</span></p>
+		</div>
+	</div>
+</main>
+<footer>
+	<p>2021 © Tatiana Carpio Cueva</p>
+	<p class="final">Actividad realizada por Tatiana Carpio Cueva, para la asignatura HTML y CSS. Segundo semestre del curso 2020-2021</p>	
+</footer>
+</body>
+</html>
