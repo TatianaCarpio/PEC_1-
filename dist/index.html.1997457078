@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet"> 
+	<title>El Alto Gállego</title>
+	<link rel="stylesheet" type="text/css" href="/index.a0631604.css">
+  	<script defer="" src="/index.1625f28e.js"></script>
+</head>
+<body class="home">
+	<header>
+		<h1>La Ruta de las Brujas</h1>
+		<img src="/logo.c833fbb6.png" alt="logo">
+</header>
+<main>
+	<div class="padre">
+		<div class="hijo">
+			<h2 class="principal">El Alto Gállego</h2>
+			<p><span class="negrita">Espera por ti...</span></p>
+			<button type="button" onclick="popup()">¡ABRA CADABRA!</button>
+		</div>
+		
+	</div>
+</main>
+<footer class="pie_home">
+	<nav>
+		<img src="/logo.c833fbb6.png" alt="logo">
+		<ul>
+			<li class="menu">Alto Gállego</li>
+			<li class="menu"><a href="/categoria.html">Ruta</a></li>
+			<li class="menu"><a href="/presentacion.html">Historia</a></li>
+			<li class="menu"><a href="/enlaces.html">Bibliografía</a></li>
+		</ul>
+	</nav>
+	<p>2021 © Tatiana Carpio Cueva</p>
+	<p class="final">Actividad realizada para la asignatura Herramientas HTML y CSS. Primer semestre del curso 2021-2022</p>	
+</footer>
+</body>
+</html>
